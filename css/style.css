@@ -48,6 +48,7 @@ header{
 .navbar .links{
     display: flex;
     gap: 2rem;
+    margin-top: 2rem;
 }
 .navbar .toggle_btn{
     color: white;
@@ -56,24 +57,49 @@ header{
     display: none;
 }
 .action_btn{
-    background-color: #3E44E7;
-    color: #fff;
+    background-color: #D9D9D9;
+    color: #2B377C;
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
 }
 .action_btn:hover{
-    scale: 1.05;
-    color: #fff;
+    scale: 1.04;
+    color: #2B377C;
 }
 .action_btn:active{
-    scale: 0.95;
+    scale: 1;
 }
+
+ /* Container principal */
+ #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42rem ;
+ }
+.boasvindas_esquerda{
+    color: #fff;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6rem;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.img_boasvindas{
+    width: 40rem;
+}
+
 /* Dropdown Menu */
 .dropdown_menu{
     display: none;
@@ -103,6 +129,10 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.logo_nav{
+    width: 5rem;
+    margin-top: 3rem;
 }
 
 /* Design responsivo */
